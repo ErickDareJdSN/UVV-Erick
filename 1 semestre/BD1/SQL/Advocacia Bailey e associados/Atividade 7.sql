@@ -1,3 +1,12 @@
+'7. Separar escolaridade (normalização)
+Tarefa:
+Criar tabela escolaridades (id, descricao)
+Inserir valores distintos de pessoas
+Adicionar escolaridade_id em pessoas
+Atualizar dados
+Remover coluna antiga
+'
+
 SELECT * FROM pessoas
 
 CREATE TABLE escolaridades(
