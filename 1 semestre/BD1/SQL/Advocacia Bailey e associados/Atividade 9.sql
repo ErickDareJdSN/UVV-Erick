@@ -1,3 +1,12 @@
+'9. Criar histórico de casos (sem trigger)
+Tarefa:
+Criar tabela casos_historico com mesma estrutura de casos
+Depois:
+Antes de atualizar qualquer caso:
+inserir o registro antigo na tabela de histórico
+(simulação manual com INSERT + UPDATE)
+'
+
 CREATE TABLE casos_historico AS
 SELECT *
 FROM casos
