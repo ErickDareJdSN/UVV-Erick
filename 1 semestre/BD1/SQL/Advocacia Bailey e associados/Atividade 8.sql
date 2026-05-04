@@ -1,3 +1,17 @@
+'8. Transformar relacionamento em tabela própria
+Problema: telefone fixo em várias tabelas
+Tarefa:
+Criar tabela telefones:
+id
+numero
+cliente_id (nullable)
+pessoa_id (nullable)
+Migrar dados de:
+clientes.telefone
+pessoas.telefone
+Remover colunas antigas
+'
+
 CREATE TABLE telefones(
 id SERIAL NOT NULL,
 numero VARCHAR(15) NOT NULL,
