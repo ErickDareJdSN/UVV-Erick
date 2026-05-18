@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idades</title>
+</head>
+
+<body>
+    <h1>O que sua idade diz sobre você?</h1>
+    <input type="text" id="x" placeholder="Ex. 19">
+    <button id="resposta">Enviar</button>
+</body>
+<script>
+    const x = document.getElementById("x");
+    const resposta = document.getElementById("resposta");
+
+    resposta.addEventListener("click", function () {
+        const idade = Number(x.value);
+
+        if (idade < 14) {
+            window.alert("Você é criança.");
+        }
+        else if (idade < 20) {
+            window.alert("Você é jovem.");
+        }
+        else if (idade < 60) {
+            window.alert("Você é adulto.");
+        }
+        else if (idade < 101) {
+            window.alert("Você é idoso.");
+        }
+        else if (idade < 131) {
+            window.alert("Você é ancião.")
+        }
+        else
+            window.alert("Você provavelmente está morto.")
+    });
+</script>
+
+</html>
