@@ -1,0 +1,1 @@
+select count (distinct "Time") from data_camp_brasileiro
